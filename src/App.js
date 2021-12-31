@@ -1,23 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Rover from './components/Rover/Rover';
+import './components/Rover/Rover.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Rover />
+
+
+      <ul className='board'>
+        <li className='square'>4</li>
+        <li className='square'>2</li>
+        <li className='square'>3</li>
+        <li className='square'>4</li>
+        <li className='square'>5</li>
+        <li className='square'>3</li>
+        <li className='square'>2</li>
+        <li className='square'>3</li>
+        <li className='square'>4</li>
+        <li className='square'>5</li>
+        <li className='square'>2</li>
+        <li className='square'>1</li>
+        <li className='square'>2</li>
+        <li className='square'>3</li>
+        <li className='square'>4</li>
+        <li className='square'>1</li>
+        <li className='square'>6</li>
+        <li className='square'>1</li>
+        <li className='square'>2</li>
+        <li className='square'>3</li>
+        
+        <li className='square'>0</li>
+        <li className='square'>1</li>
+        <li className='square'>2</li>
+        <li className='square'>3</li>
+        <li className='square'>4</li>
+      </ul>
     </div>
   );
 }

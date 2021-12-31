@@ -1,0 +1,23 @@
+
+.board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 1px;
+    grid-row-gap: 1px;
+    list-style: none;
+    max-width: 350px;
+    margin: 40px auto;
+    padding: 0;
+}
+.square{
+    position: relative;
+    display: grid;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-items: center;
+    background-color: #5c96b3;
+    -webkit-transition: background .2s;
+    -o-transition: background .2s;
+    transition: background .2s;
+    min-height: 70px;
+}
